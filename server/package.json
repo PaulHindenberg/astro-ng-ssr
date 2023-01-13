@@ -1,0 +1,29 @@
+{
+    "name": "docker_web_app",
+    "version": "1.0.0",
+    "description": "Node.js on Docker",
+    "author": "First Last <first.last@example.com>",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "@analogjs/astro-angular": "^0.1.0-beta.6",
+      "@angular-devkit/build-angular": "^15.1.0",
+      "@angular/animations": "^15.1.0",
+      "@angular/common": "^15.1.0",
+      "@angular/compiler": "^15.1.0",
+      "@angular/compiler-cli": "^15.1.0",
+      "@angular/core": "^15.1.0",
+      "@angular/language-service": "^15.1.0",
+      "@angular/platform-browser": "^15.1.0",
+      "@angular/platform-browser-dynamic": "^15.1.0",
+      "@angular/platform-server": "^15.1.0",
+      "@astrojs/node": "^4.0.0",
+      "astro": "^1.9.2",
+      "rxjs": "^7.8.0",
+      "tslib": "^2.4.1",
+      "zone.js": "^0.11.8"
+    }
+  }
